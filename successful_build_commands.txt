@@ -1,0 +1,23 @@
+成功編譯指令紀錄
+==================
+
+專案名稱: test_Deathly_Stillness
+編譯時間: 2025-08-21
+
+成功的編譯指令:
+"C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Current\Bin\MSBuild.exe" "E:\舊電腦_C槽\repos\test_Deathly_Stillness\test_Deathly_Stillness.sln" /p:Configuration=Release /p:Platform=x64
+
+編譯輸出位置:
+- 主程式: x64\Release\test_Deathly_Stillness.exe
+- DLL: x64\Release\Dll1.dll
+- 除錯檔案: x64\Release\test_Deathly_Stillness.pdb, Dll1.pdb
+
+注意事項:
+- 專案已配置正確的 SDK 包含路徑 (Dumper7)
+- Release 模式下已停用預編譯標頭
+- 所有必要的源碼檔案都已包含在專案中
+
+Shell 環境問題:
+- 當前 shell 環境存在 cygpath 轉換問題
+- 無法直接執行 MSBuild 命令
+- 建議使用 Visual Studio IDE 或修復 shell 環境

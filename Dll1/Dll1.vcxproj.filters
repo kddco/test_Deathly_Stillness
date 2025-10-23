@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="來源檔案">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="標頭檔">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="資源檔">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="來源檔案\Dumper7">
+      <UniqueIdentifier>{cf2d0757-ca73-4ee7-8452-7c6611ae8a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\OS-ImGui">
+      <UniqueIdentifier>{78caec47-2aa1-45a2-ad17-1c4729313c20}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\OS-ImGui\imgui">
+      <UniqueIdentifier>{40b4e91e-88af-4265-a1bf-0f971201f086}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="來源檔案\OS-ImGui\Minhook">
+      <UniqueIdentifier>{ff489fc7-6430-4e07-8b69-31b03ffa5634}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OS-ImGui\OS-ImGui.h">
+      <Filter>標頭檔</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OS-ImGui\OS-ImGui_Base.h">
+      <Filter>來源檔案\OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OS-ImGui\OS-ImGui_Exception.hpp">
+      <Filter>來源檔案\OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OS-ImGui\OS-ImGui_External.h">
+      <Filter>來源檔案\OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OS-ImGui\OS-ImGui_Internal.h">
+      <Filter>來源檔案\OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OS-ImGui\OS-ImGui_Struct.h">
+      <Filter>來源檔案\OS-ImGui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OS-ImGui\imgui\imgui.h">
+      <Filter>來源檔案\OS-ImGui\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="..\OS-ImGui\Minhook\MinHook.h">
+      <Filter>來源檔案\OS-ImGui\Minhook</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>來源檔案</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dumper7\SDK\Basic.cpp">
+      <Filter>來源檔案\Dumper7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dumper7\SDK\CoreUObject_functions.cpp">
+      <Filter>來源檔案\Dumper7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Dumper7\SDK\Engine_functions.cpp">
+      <Filter>來源檔案\Dumper7</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OS-ImGui\OS-ImGui.cpp">
+      <Filter>來源檔案\OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OS-ImGui\OS-ImGui_Base.cpp">
+      <Filter>來源檔案\OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OS-ImGui\OS-ImGui_External.cpp">
+      <Filter>來源檔案\OS-ImGui</Filter>
+    </ClCompile>
+    <ClCompile Include="..\OS-ImGui\OS-ImGui_Internal.cpp">
+      <Filter>來源檔案\OS-ImGui</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
